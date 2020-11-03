@@ -7,14 +7,16 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 // import Titulo from './src/components/Titulo'
 // import Botao from './src/components/Botao'
 // import Contador from './src/components/Contador'
-import Calculadora from './src/components/CalculadoraHorasExtras'
+// import Calculadora from './src/components/CalculadoraHorasExtras'
+import Pai from './src/indireta/Pai';
 
 const App = () => {
   return (
     <SafeAreaView style={styles.app}>
       
-      <Calculadora horaNormal={7.44} />
+      <Pai />
       {/* 
+      <Calculadora horaNormal={7.44} />
         <Contador inicial={100} passo={13} />
         <Contador />
         <Primeiro />
