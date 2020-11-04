@@ -9,13 +9,17 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 // import Contador from './src/components/Contador'
 // import Calculadora from './src/components/CalculadoraHorasExtras'
 // import Pai from './src/indireta/Pai';
-import ContadorV2 from './src/components/contador/ContadorV2'
+// import ContadorV2 from './src/components/contador/ContadorV2'
+// import Diferenciar from './src/components/Diferenciar'
+import ParImpar from './src/components/ParImpar'
 
 const App = () => {
   return (
     <SafeAreaView style={styles.app}>
-      <ContadorV2 />
+      <ParImpar num={3} />
       {/* 
+      <Diferenciar />
+      <ContadorV2 />
       <Pai />
       <Calculadora horaNormal={7.44} />
         <Contador inicial={100} passo={13} />
